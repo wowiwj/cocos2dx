@@ -29,6 +29,9 @@ bool TollgateScene::init()
     
     TMXTiledMap* map = TMXTiledMap::create("level01.tmx");
     this->addChild(map);
+    
+    //加载玩家
+    addPlayer(map);
     return true;
     
 }
@@ -36,7 +39,7 @@ bool TollgateScene::init()
 //添加角色
 void TollgateScene::addPlayer(TMXTiledMap* map)
 {
-    Size visibleSize = Director::getInstance()->getVisibleSize();
+   // Size visibleSize = Director::getInstance()->getVisibleSize();
     
     
     //创建精灵
@@ -48,9 +51,20 @@ void TollgateScene::addPlayer(TMXTiledMap* map)
     mPlayer->BindSprite(playerSprite);
     mPlayer->run();
     
+    //加载对象层
+    TMXObjectGroup* objGroup = map->getObjectGroup("objects");
+    
+    //加载玩家对象坐标
+    
+    ValueMap playerPointMap = objGroup->getObject("PlayerPoint");
+    
+    float playerX = playerPointMap.at("x").asFloat();
+    float PlayerY = playerPointMap.at("y").asFloat();
+    
+    
     
     //设置玩家坐标
-    mPlayer->setPosition(Point(100,visibleSize.height * 0.5f));
+    mPlayer->setPosition(Point(playerX,PlayerY));
     
     //将玩家添加到地图
     map->addChild(mPlayer);

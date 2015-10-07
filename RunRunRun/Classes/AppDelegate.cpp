@@ -1,5 +1,4 @@
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
 #include "TollgateScene.hpp"
 
 USING_NS_CC;
