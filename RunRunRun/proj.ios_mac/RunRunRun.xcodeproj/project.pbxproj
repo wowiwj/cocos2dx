@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,6 +50,23 @@
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		686C4C598BE2D33D72717162 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 59034C45B7318DA5E4A7B462 /* res */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		990250EB1BC526E4009F9530 /* TollgateScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 990250E91BC526E4009F9530 /* TollgateScene.cpp */; settings = {ASSET_TAGS = (); }; };
+		990250EC1BC526E4009F9530 /* TollgateScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 990250E91BC526E4009F9530 /* TollgateScene.cpp */; settings = {ASSET_TAGS = (); }; };
+		990250FE1BC530CD009F9530 /* level01.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 990250FC1BC530CD009F9530 /* level01.tmx */; settings = {ASSET_TAGS = (); }; };
+		990250FF1BC530CD009F9530 /* level01.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 990250FC1BC530CD009F9530 /* level01.tmx */; settings = {ASSET_TAGS = (); }; };
+		990251001BC530CD009F9530 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 990250FD1BC530CD009F9530 /* map.png */; settings = {ASSET_TAGS = (); }; };
+		990251011BC530CD009F9530 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 990250FD1BC530CD009F9530 /* map.png */; settings = {ASSET_TAGS = (); }; };
+		99530EB81BC53F4000B3B33E /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99530EB61BC53F4000B3B33E /* Entity.cpp */; settings = {ASSET_TAGS = (); }; };
+		99530EBC1BC5410F00B3B33E /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99530EBA1BC5410F00B3B33E /* Player.cpp */; settings = {ASSET_TAGS = (); }; };
+		99530EBD1BC5410F00B3B33E /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99530EBA1BC5410F00B3B33E /* Player.cpp */; settings = {ASSET_TAGS = (); }; };
+		99530EC21BC543BC00B3B33E /* boys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99530EBE1BC543BC00B3B33E /* boys.plist */; settings = {ASSET_TAGS = (); }; };
+		99530EC31BC543BC00B3B33E /* boys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99530EBE1BC543BC00B3B33E /* boys.plist */; settings = {ASSET_TAGS = (); }; };
+		99530EC41BC543BC00B3B33E /* boys.png in Resources */ = {isa = PBXBuildFile; fileRef = 99530EBF1BC543BC00B3B33E /* boys.png */; settings = {ASSET_TAGS = (); }; };
+		99530EC51BC543BC00B3B33E /* boys.png in Resources */ = {isa = PBXBuildFile; fileRef = 99530EBF1BC543BC00B3B33E /* boys.png */; settings = {ASSET_TAGS = (); }; };
+		99530EC61BC543BC00B3B33E /* meta_tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 99530EC01BC543BC00B3B33E /* meta_tiles.png */; settings = {ASSET_TAGS = (); }; };
+		99530EC71BC543BC00B3B33E /* meta_tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 99530EC01BC543BC00B3B33E /* meta_tiles.png */; settings = {ASSET_TAGS = (); }; };
+		99530EC81BC543BC00B3B33E /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 99530EC11BC543BC00B3B33E /* player.png */; settings = {ASSET_TAGS = (); }; };
+		99530EC91BC543BC00B3B33E /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 99530EC11BC543BC00B3B33E /* player.png */; settings = {ASSET_TAGS = (); }; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -112,6 +129,18 @@
 		59034C45B7318DA5E4A7B462 /* res */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = res; path = ../Resources/res; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		89AD4506B527F53C15871621 /* libcocos2d iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2d iOS.a"; path = "/Applications/Cocos/frameworks/cocos2d-x-3.8/prebuilt/ios/libcocos2d iOS.a"; sourceTree = "<absolute>"; };
+		990250E91BC526E4009F9530 /* TollgateScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TollgateScene.cpp; sourceTree = "<group>"; };
+		990250EA1BC526E4009F9530 /* TollgateScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TollgateScene.hpp; sourceTree = "<group>"; };
+		990250FC1BC530CD009F9530 /* level01.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level01.tmx; sourceTree = "<group>"; };
+		990250FD1BC530CD009F9530 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		99530EB61BC53F4000B3B33E /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		99530EB71BC53F4000B3B33E /* Entity.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Entity.hpp; sourceTree = "<group>"; };
+		99530EBA1BC5410F00B3B33E /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		99530EBB1BC5410F00B3B33E /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		99530EBE1BC543BC00B3B33E /* boys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = boys.plist; sourceTree = "<group>"; };
+		99530EBF1BC543BC00B3B33E /* boys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boys.png; sourceTree = "<group>"; };
+		99530EC01BC543BC00B3B33E /* meta_tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meta_tiles.png; sourceTree = "<group>"; };
+		99530EC11BC543BC00B3B33E /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -234,6 +263,12 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				99530EBE1BC543BC00B3B33E /* boys.plist */,
+				99530EBF1BC543BC00B3B33E /* boys.png */,
+				99530EC01BC543BC00B3B33E /* meta_tiles.png */,
+				99530EC11BC543BC00B3B33E /* player.png */,
+				990250FC1BC530CD009F9530 /* level01.tmx */,
+				990250FD1BC530CD009F9530 /* map.png */,
 				59034C45B7318DA5E4A7B462 /* res */,
 			);
 			name = Resources;
@@ -243,6 +278,9 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				990250E71BC52687009F9530 /* 控制器 */,
+				990250E61BC5267E009F9530 /* 实体 */,
+				990250E51BC52675009F9530 /* 场景 */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
@@ -307,6 +345,49 @@
 			name = "mac-libs";
 			sourceTree = "<group>";
 		};
+		990250E51BC52675009F9530 /* 场景 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "场景";
+			sourceTree = "<group>";
+		};
+		990250E61BC5267E009F9530 /* 实体 */ = {
+			isa = PBXGroup;
+			children = (
+				99530EB61BC53F4000B3B33E /* Entity.cpp */,
+				99530EB71BC53F4000B3B33E /* Entity.hpp */,
+				99530EB91BC540C500B3B33E /* 主角 */,
+				990250E81BC5269A009F9530 /* 关卡 */,
+			);
+			name = "实体";
+			sourceTree = "<group>";
+		};
+		990250E71BC52687009F9530 /* 控制器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "控制器";
+			sourceTree = "<group>";
+		};
+		990250E81BC5269A009F9530 /* 关卡 */ = {
+			isa = PBXGroup;
+			children = (
+				990250E91BC526E4009F9530 /* TollgateScene.cpp */,
+				990250EA1BC526E4009F9530 /* TollgateScene.hpp */,
+			);
+			name = "关卡";
+			sourceTree = "<group>";
+		};
+		99530EB91BC540C500B3B33E /* 主角 */ = {
+			isa = PBXGroup;
+			children = (
+				99530EBA1BC5410F00B3B33E /* Player.cpp */,
+				99530EBB1BC5410F00B3B33E /* Player.hpp */,
+			);
+			name = "主角";
+			sourceTree = "<group>";
+		};
 		D5CB42F08C6D43063F35C095 /* ios-libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,10 +439,16 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = com.wangju.run01;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = XCDWEQ56GP;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RunRunRun" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -392,6 +479,8 @@
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
+				990250FE1BC530CD009F9530 /* level01.tmx in Resources */,
+				99530EC61BC543BC00B3B33E /* meta_tiles.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
@@ -402,8 +491,12 @@
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
+				990251001BC530CD009F9530 /* map.png in Resources */,
+				99530EC41BC543BC00B3B33E /* boys.png in Resources */,
+				99530EC81BC543BC00B3B33E /* player.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 				686C4C598BE2D33D72717162 /* res in Resources */,
+				99530EC21BC543BC00B3B33E /* boys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +504,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990251011BC530CD009F9530 /* map.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
+				99530EC91BC543BC00B3B33E /* player.png in Resources */,
+				99530EC51BC543BC00B3B33E /* boys.png in Resources */,
+				990250FF1BC530CD009F9530 /* level01.tmx in Resources */,
 				ECCA4FDDA67B1D94F5543B74 /* res in Resources */,
+				99530EC71BC543BC00B3B33E /* meta_tiles.png in Resources */,
+				99530EC31BC543BC00B3B33E /* boys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +522,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99530EBC1BC5410F00B3B33E /* Player.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				99530EB81BC53F4000B3B33E /* Entity.cpp in Sources */,
+				990250EB1BC526E4009F9530 /* TollgateScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -435,9 +537,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990250EC1BC526E4009F9530 /* TollgateScene.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				99530EBD1BC5410F00B3B33E /* Player.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +553,9 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -467,17 +573,16 @@
 					"/Applications/Cocos/frameworks/cocos2d-x-3.8/cocos/platform/ios/Simulation",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/frameworks/cocos2d-x-3.8/prebuilt/ios",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/frameworks/cocos2d-x-3.8/prebuilt/ios";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangju.rungame;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
 				VALID_ARCHS = "arm64 armv7";
 			};
@@ -488,7 +593,9 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				ENABLE_BITCODE = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -504,17 +611,16 @@
 					"/Applications/Cocos/frameworks/cocos2d-x-3.8/cocos/platform/ios/Simulation",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/frameworks/cocos2d-x-3.8/prebuilt/ios",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/frameworks/cocos2d-x-3.8/prebuilt/ios";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangju.rungame;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
 				VALID_ARCHS = "arm64 armv7";
 			};
@@ -524,9 +630,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -544,14 +650,12 @@
 					"/Applications/Cocos/frameworks/cocos2d-x-3.8/external/glfw3/include/mac",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/frameworks/cocos2d-x-3.8/prebuilt/mac",
-				);
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/frameworks/cocos2d-x-3.8/prebuilt/mac";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangju.runrunrun;
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
 			};
 			name = Debug;
@@ -560,9 +664,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mac/Prefix.pch;
@@ -578,14 +682,12 @@
 					"/Applications/Cocos/frameworks/cocos2d-x-3.8/external/glfw3/include/mac",
 				);
 				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = (
-					"",
-					"/Applications/Cocos/frameworks/cocos2d-x-3.8/prebuilt/mac",
-				);
+				LIBRARY_SEARCH_PATHS = " /Applications/Cocos/frameworks/cocos2d-x-3.8/prebuilt/mac";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangju.runrunrun;
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
 			};
 			name = Release;
@@ -596,6 +698,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -614,6 +718,7 @@
 					"/Applications/Cocos/frameworks/cocos2d-x-3.8/external",
 					"/Applications/Cocos/frameworks/cocos2d-x-3.8/external/chipmunk/include/chipmunk",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -626,6 +731,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				ENABLE_BITCODE = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
@@ -643,6 +749,7 @@
 					"/Applications/Cocos/frameworks/cocos2d-x-3.8/external",
 					"/Applications/Cocos/frameworks/cocos2d-x-3.8/external/chipmunk/include/chipmunk",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
