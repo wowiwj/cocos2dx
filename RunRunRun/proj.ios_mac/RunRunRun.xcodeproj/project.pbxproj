@@ -65,6 +65,12 @@
 		99530EC71BC543BC00B3B33E /* meta_tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 99530EC01BC543BC00B3B33E /* meta_tiles.png */; settings = {ASSET_TAGS = (); }; };
 		99530EC81BC543BC00B3B33E /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 99530EC11BC543BC00B3B33E /* player.png */; settings = {ASSET_TAGS = (); }; };
 		99530EC91BC543BC00B3B33E /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 99530EC11BC543BC00B3B33E /* player.png */; settings = {ASSET_TAGS = (); }; };
+		99530ECC1BC552A700B3B33E /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99530ECA1BC552A700B3B33E /* Controller.cpp */; settings = {ASSET_TAGS = (); }; };
+		99530ECD1BC552A700B3B33E /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99530ECA1BC552A700B3B33E /* Controller.cpp */; settings = {ASSET_TAGS = (); }; };
+		99530ED01BC5535100B3B33E /* ControllerListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99530ECE1BC5535100B3B33E /* ControllerListener.cpp */; settings = {ASSET_TAGS = (); }; };
+		99530ED11BC5535100B3B33E /* ControllerListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99530ECE1BC5535100B3B33E /* ControllerListener.cpp */; settings = {ASSET_TAGS = (); }; };
+		99530ED41BC5579200B3B33E /* SimpleMoveController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99530ED21BC5579200B3B33E /* SimpleMoveController.cpp */; settings = {ASSET_TAGS = (); }; };
+		99530ED51BC5579200B3B33E /* SimpleMoveController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99530ED21BC5579200B3B33E /* SimpleMoveController.cpp */; settings = {ASSET_TAGS = (); }; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -137,6 +143,12 @@
 		99530EBF1BC543BC00B3B33E /* boys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boys.png; sourceTree = "<group>"; };
 		99530EC01BC543BC00B3B33E /* meta_tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meta_tiles.png; sourceTree = "<group>"; };
 		99530EC11BC543BC00B3B33E /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		99530ECA1BC552A700B3B33E /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		99530ECB1BC552A700B3B33E /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		99530ECE1BC5535100B3B33E /* ControllerListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControllerListener.cpp; sourceTree = "<group>"; };
+		99530ECF1BC5535100B3B33E /* ControllerListener.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ControllerListener.hpp; sourceTree = "<group>"; };
+		99530ED21BC5579200B3B33E /* SimpleMoveController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMoveController.cpp; sourceTree = "<group>"; };
+		99530ED31BC5579200B3B33E /* SimpleMoveController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimpleMoveController.hpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -360,6 +372,12 @@
 		990250E71BC52687009F9530 /* 控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				99530ECA1BC552A700B3B33E /* Controller.cpp */,
+				99530ECB1BC552A700B3B33E /* Controller.hpp */,
+				99530ECE1BC5535100B3B33E /* ControllerListener.cpp */,
+				99530ECF1BC5535100B3B33E /* ControllerListener.hpp */,
+				99530ED21BC5579200B3B33E /* SimpleMoveController.cpp */,
+				99530ED31BC5579200B3B33E /* SimpleMoveController.hpp */,
 			);
 			name = "控制器";
 			sourceTree = "<group>";
@@ -516,10 +534,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99530ED01BC5535100B3B33E /* ControllerListener.cpp in Sources */,
 				99530EBC1BC5410F00B3B33E /* Player.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				99530EB81BC53F4000B3B33E /* Entity.cpp in Sources */,
+				99530ECC1BC552A700B3B33E /* Controller.cpp in Sources */,
 				990250EB1BC526E4009F9530 /* TollgateScene.cpp in Sources */,
+				99530ED41BC5579200B3B33E /* SimpleMoveController.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -531,7 +552,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				990250EC1BC526E4009F9530 /* TollgateScene.cpp in Sources */,
+				99530ED51BC5579200B3B33E /* SimpleMoveController.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				99530ECD1BC552A700B3B33E /* Controller.cpp in Sources */,
+				99530ED11BC5535100B3B33E /* ControllerListener.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				99530EBD1BC5410F00B3B33E /* Player.cpp in Sources */,
 			);

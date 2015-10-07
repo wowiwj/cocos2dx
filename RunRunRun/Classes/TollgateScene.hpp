@@ -16,6 +16,7 @@
 #include <iostream>
 #include "cocos2d.h"
 #include "Player.hpp"
+#include "SimpleMoveController.hpp"
 
 USING_NS_CC;
 

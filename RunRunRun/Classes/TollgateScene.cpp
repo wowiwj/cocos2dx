@@ -42,6 +42,9 @@ void TollgateScene::addPlayer(TMXTiledMap* map)
    // Size visibleSize = Director::getInstance()->getVisibleSize();
     
     
+
+    
+    
     //创建精灵
     Sprite* playerSprite = Sprite::create("player.png");
     
@@ -66,7 +69,20 @@ void TollgateScene::addPlayer(TMXTiledMap* map)
     //设置玩家坐标
     mPlayer->setPosition(Point(playerX,PlayerY));
     
+    
     //将玩家添加到地图
     map->addChild(mPlayer);
+    
+    
+    //创建简单的玩家控制器
+    SimpleMoveController* simpleMoveControll = SimpleMoveController::create();
+    
+    
+    //设置速度
+    simpleMoveControll->setiSpeed(1);
+    
+    this->addChild(simpleMoveControll);
+    
+    mPlayer->setController(simpleMoveControll);    
 
 }
